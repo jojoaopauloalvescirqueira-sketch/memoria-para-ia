@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "ai-memory": {
+      "type": "stdio",
+      "command": "/Users/joaoalvescirqueira/.local/bin/ai-memory",
+      "args": [
+        "mcp-bridge",
+        "--no-session-id",
+        "--data-dir",
+        "/Users/joaoalvescirqueira/Library/Mobile Documents/com~apple~CloudDocs/IA MEMORY"
+      ]
+    }
+  }
+}
